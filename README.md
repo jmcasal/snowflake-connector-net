@@ -247,4 +247,4 @@ This CVE has been reported in systems.text.regularexpressions.dll which is used 
 * Delete any logs collected thus far and make sure that all copies are deleted. 
 * If you cannot upgrade for any reason, please ensure all debugging is disabled
 * If you are concerned about a potential compromise, contact Snowflake Customer Support for assistance with invalidating all active sessions/tokens. 
-
+*

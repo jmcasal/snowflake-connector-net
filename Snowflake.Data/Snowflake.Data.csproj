@@ -5,22 +5,21 @@
     <PackageId>Snowflake.Data</PackageId>
     <PackageLicenseUrl>https://github.com/snowflakedb/snowflake-connector-net/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/snowflakedb/snowflake-connector-net</PackageProjectUrl>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageIconUrl>https://raw.githubusercontent.com/snowflakedb/snowflake-connector-net/master/Snowflake.Data/snowflake.ico</PackageIconUrl>
-    <Description>Snowflake Connector for .NET</Description>
+    <Description>Snowflake Connector for .NET - JM</Description>
     <Company>Snowflake Computing, Inc</Company>
     <Product>Snowflake Connector for .NET</Product>
     <Authors>howryu, tchen</Authors>
     <Copyright>Copyright (c) 2012-2019 Snowflake Computing Inc. All rights reserved.</Copyright>
-    <Version>1.1.4</Version>
+    <Version>1.1.2.1</Version>
     <DebugType>Full</DebugType>
   </PropertyGroup>
 	
   <ItemGroup>
     <PackageReference Include="AngleSharp" Version="0.12.1" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
-    <PackageReference Include="log4net" Version="2.0.11" />
-    <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
+    <PackageReference Include="log4net" Version="2.0.8" />
   </ItemGroup>
   
   <ItemGroup Condition="'$(TargetFramework)' == 'net46'">
@@ -46,6 +45,10 @@
   <PropertyGroup>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+    <PackageReleaseNotes>Revisión de Issue con el binding de los parámetros</PackageReleaseNotes>
+    <AssemblyVersion>1.1.2.1</AssemblyVersion>
+    <FileVersion>1.1.2.1</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   
   <ItemGroup>
